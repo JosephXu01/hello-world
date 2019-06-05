@@ -16,7 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<docker.image.prefix>joseph</docker.image.prefix>
+		<docker.image.prefix>josephxyp</docker.image.prefix>
 	</properties>
 
 	<dependencies>
