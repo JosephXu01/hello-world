@@ -8,3 +8,14 @@ spring:
     username: root
     password: Laserjet.Sdc1
     driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 127.0.0.1
+    password: Laserjet.Sdc1
+    port: 6379
+    timeout: 1000
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1  # no limit
+        min-idle: 0

@@ -25,5 +25,6 @@ public class DemoController {
 		return new Greeting(counter.incrementAndGet(),
 				String.format(template, name));
 	}
-	
+
+
 }
