@@ -8,6 +8,7 @@ spring:
     username: root
     password: Laserjet.Sdc1
     driver-class-name: com.mysql.cj.jdbc.Driver
+<<<<<<< HEAD
 logging:
   level:
     root: WARN
@@ -16,3 +17,16 @@ logging:
       springframework:
         web: DEBUG
       hibernate: ERROR
+=======
+  redis:
+    host: 127.0.0.1
+    password: Laserjet.Sdc1
+    port: 6379
+    timeout: 1000
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1  # no limit
+        min-idle: 0
+>>>>>>> 805e4fb13f4eda9d3227d4ee8765fbeacece8dd7
