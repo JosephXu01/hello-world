@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8086
   servlet:
     context-path: /hello
 spring:
@@ -8,3 +8,11 @@ spring:
     username: root
     password: Laserjet.Sdc1
     driver-class-name: com.mysql.cj.jdbc.Driver
+logging:
+  level:
+    root: WARN
+    org.joseph.hello: DEBUG
+    org:
+      springframework:
+        web: DEBUG
+      hibernate: ERROR
